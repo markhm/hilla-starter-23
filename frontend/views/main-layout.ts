@@ -82,64 +82,11 @@ export class MainLayout extends Layout {
 
   private getMenuRoutes(): RouteInfo[] {
     return [
-      {
-        path: 'hello-world',
-        title: 'Hello World',
-        icon: 'la la-globe',
-      },
 
       {
         path: 'about',
         title: 'About',
         icon: 'la la-file',
-      },
-
-      {
-        path: 'card-list',
-        title: 'Card List',
-        icon: 'la la-list',
-      },
-
-      {
-        path: 'master-detail',
-        title: 'Master-Detail',
-        icon: 'la la-columns',
-      },
-
-      {
-        path: 'person-form',
-        title: 'Person Form',
-        icon: 'la la-user',
-      },
-
-      {
-        path: 'address-form',
-        title: 'Address Form',
-        icon: 'la la-map-marker',
-      },
-
-      {
-        path: 'credit-card-form',
-        title: 'Credit Card Form',
-        icon: 'la la-credit-card',
-      },
-
-      {
-        path: 'chat',
-        title: 'Chat',
-        icon: 'la la-comments',
-      },
-
-      {
-        path: 'image-list',
-        title: 'Image List',
-        icon: 'la la-th-list',
-      },
-
-      {
-        path: 'checkout-form',
-        title: 'Checkout Form',
-        icon: 'la la-credit-card',
       },
 
       {
